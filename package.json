@@ -4,9 +4,13 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css -w"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css --w"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0"
+  }
 }
